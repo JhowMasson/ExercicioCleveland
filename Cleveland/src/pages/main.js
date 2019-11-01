@@ -35,10 +35,10 @@ class Main extends Component{
                 keyExtractor={item => item.idMedico.toString()} 
                 renderItem={({item}) =>{
                     <View>
-                        {/* <Text>{item.idMedico}</Text> */}
+                        <Text>{item.idMedico}</Text>
                         <Text>{item.nome}</Text>
-                        {/* <Text>{item.dataNascimento}</Text>
-                        <Text>{item.crm}</Text> */}
+                        <Text>{item.dataNascimento}</Text>
+                        <Text>{item.crm}</Text>
                     </View>
                 }}/>
             </View>
