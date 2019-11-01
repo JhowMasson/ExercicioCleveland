@@ -12,5 +12,6 @@ CREATE TABLE Medicos(
 
 
 INSERT INTO Medicos VALUES('Janeílton da Silva','1963-12-06','954a6146P')
+INSERT INTO Medicos VALUES('Robson da Silva','1963-11-06','9524a6146P')
 
 SELECT * FROM Medicos
