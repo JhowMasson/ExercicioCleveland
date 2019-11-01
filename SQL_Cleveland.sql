@@ -1,0 +1,16 @@
+CREATE DATABASE M_Cleveland
+
+USE M_Cleveland
+
+CREATE TABLE Medicos(
+	IdMedico INT PRIMARY KEY IDENTITY,
+	Nome VARCHAR(255) NOT NULL,
+	DataNascimento DATE NOT NULL,
+	Crm VARCHAR(100) NOT NULL UNIQUE,
+);
+
+
+
+INSERT INTO Medicos VALUES('Janeílton da Silva','1963-12-06','954a6146P')
+
+SELECT * FROM Medicos
